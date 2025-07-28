@@ -1,0 +1,321 @@
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 34px;
+}
+.inter-normal1{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 80px;
+}
+.inter-normal2{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 20px;
+}
+.inter-normal3{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style:medium;
+  font-size: 18px;
+}
+.inter-normal4{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style:black;
+  font-size: 100px;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 65px;
+}
+.raleway-normal1{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 16px;
+}
+.raleway-normal2{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 24px;
+}
+.raleway-normal3{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 38px;
+}
+.raleway-normal4{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 97px;
+}
+.raleway-normal5{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* Navbar styles */
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 909px;;
+    padding: 0px 50px;
+    margin: 0px 150px;
+
+}
+nav h4{
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    height: 48px;
+    width:132px;
+    gap:16px;
+    border: #4E47FF;
+}
+.btn-primary:hover{
+    background-color: cadetblue;
+}
+.btn{
+    font-size: bold;
+    display: inline-block;
+    margin: 37px 365px ;
+}
+.header{
+    height: 698px;
+    width: 1440px;
+    gap: 158px;
+    background-color: #4E47FF;
+}
+.new-image{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0px 200px 0px;
+}
+/* banner styles */
+.banner-content{
+    text-align: center;
+    padding: 0px;
+    margin: 155px 118px;
+}
+.banner-title{
+    margin-top: 158px;
+    font-weight: bold;
+    color: #252432;
+   
+}
+/* Action styles */
+.section-title{
+    margin-bottom: 23px;
+
+}
+.subtitle{
+    margin-bottom: 23px;
+}
+.new-btn{
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: #4E47FF;
+}
+.new-btn:hover{
+    background-color: cadetblue;
+}
+.action{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    gap:220px;
+    margin: 116px 159px 116px 141px;
+}
+.picture img{
+    border-radius: 48px;
+}
+
+/* Productive Users Section */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    margin: 116px 159px 137px 141px;
+
+}
+.productive-title{
+    text-align: center;
+}
+.productive-data{
+    color: #4E47FF;
+}
+.productive-user .productive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:158px;
+   
+}
+.productive-description{
+    color:rgba(0, 0, 0, 0.5);
+
+}
+.pproductive{
+    margin-top: 40px;
+}
+/* card styles */
+.user-feedback{
+    margin: 137px 149px 137px 151px;
+}
+.user-feedback h1{
+    text-align: center;
+
+}
+.card1{
+    background-image: url(../Assets/icon-star.png);
+    background-repeat: no-repeat;
+}
+
+/* touch styles */
+.touch-section{
+    background-color:#D6DDED;
+    display: flex;
+    gap:115px;
+    padding-left: 151px;
+    padding-right: 149px;
+    padding-top: 122px;
+}
+
+form input[type="email"], form input[type="text"], form textarea{
+    height: 70px;
+    width: 497px;
+    gap: 10px;
+    border-radius: 10px;
+    border: #D6DDED;
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+}
+form input[type="button"]{
+    height: 62px;
+    width: 497px;
+    gap: 10px;
+    padding:19px 101px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+}
+form input[type="button"]:hover{
+    background-color: cadetblue;
+}
+
+/* footer styles */
+footer{
+    background-color:#FFFFFF ;
+    height:428px ;
+    width: 1440px;
+    border: #000000;
+    position: absolute;
+    left: 0px;
+    right: 3615px;
+}
+.footer-info{
+    margin:104px 455px 103px 454px;
+    position:absolute;
+    left:454px;
+    right:104px;
+    height: 221px;
+    width:531px;
+    gap: 30px;
+}
+/* .website-name{
+    height: 221px;
+    width: 531px;
+    gap:20px;
+    align-items: center;
+
+} */
+.website-title{
+    height: 121px;
+    width:291px;
+    color: #4E47FF;
+}
+.website-sub-title{
+    height: 48px;
+    width: 531px;
+    text-align: center;
+    color: #8987A1;
+    /* Ag paragraph font pai nah */
+    /* padding-top: 8px;
+    padding-left: 120px;
+    padding-right: 120px; */
+    /* margin: 233px 455px 147px 454px; */
+    /* position: absolute;
+    left: 0px;
+    right: 129px; */
+}
+.website-link{
+    height: 24px;
+    width:401px;
+    color: #8987A1;
+    padding: 20px 65px 0px 20px;
+    
+}
+.website-link a{
+    display: flex;
+    gap:48px;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+.first{
+    position: absolute;
+    left: 65px;
+    right: 197px;
+    height: 24px;
+    width: 45px;
+}
+.second{
+    position: absolute;
+    left: 158px;
+    right: 197px;
+    height: 24px;
+    width: 46px;
+}
+.third{
+    position: absolute;
+    left: 252px;
+    right: 197px;
+    height: 24px;
+    width: 100px;
+}
+.fourth {
+    position: absolute;
+    left: 400px;
+    right: 197px;
+    width:66px;
+}
