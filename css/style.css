@@ -215,6 +215,7 @@ nav h4{
     width: 366px;
     gap:24px;
     padding: 24px;
+    background-color: #FFFFFF;
     border: #F2EDED;
     border-radius: 14px;
 }
@@ -305,11 +306,12 @@ footer{
     width:291px;
     color: #4E47FF;
 }
-.website-sub-title{
+.website-sub-title p{
     height: 48px;
     width: 531px;
     text-align: center;
     color: #8987A1;
+    padding-top: 8px;
     /* Ag paragraph font pai nah */
     /* padding-top: 8px;
     padding-left: 120px;
