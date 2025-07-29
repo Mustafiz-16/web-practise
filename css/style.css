@@ -204,11 +204,24 @@ nav h4{
 /* touch styles */
 .touch-section{
     background-color:#D6DDED;
+}
+.touch-content{
     display: flex;
-    gap:115px;
-    padding-left: 151px;
-    padding-right: 149px;
-    padding-top: 122px;
+    align-items: center;
+    gap: 200px;
+    margin-left: 151px;
+    margin-right: 149px;
+    margin-top: 122px;
+    padding: 71px 0px;
+    position:relative;
+    left: 151px;
+    right: 2998px;
+}
+.touch-form{
+    width:497px;
+    height:490px;
+    gap:19px;
+    padding: 0px;
 }
 
 form input[type="email"], form input[type="text"], form textarea{
@@ -231,7 +244,6 @@ form input[type="button"]{
 form input[type="button"]:hover{
     background-color: cadetblue;
 }
-
 /* footer styles */
 footer{
     background-color:#FFFFFF ;
